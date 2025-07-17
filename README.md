@@ -50,12 +50,12 @@ WHERE
 
         
 **Q.3 Write a SQL query to calculate the total sales (total_sale) for each category.**
+
 SELECT 
     category, SUM(total_sale) AS Total_Sales
 FROM
     sales_data
 GROUP BY category;
-
 
 **Q.4 Write a SQL query to find the average age of customers who purchased items from the 'Beauty' category.**
 SELECT 
