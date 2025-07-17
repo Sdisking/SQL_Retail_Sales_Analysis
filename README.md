@@ -8,6 +8,7 @@ This project is designed to demonstrate SQL skills and techniques typically used
 **1. Database Setup**
 
 Database Creation : the project starts by creating a database named "Retail_sales_Analysis"
+
 Table Creation : A table named "Sales_data" is created to store the sales data. the table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, Age, Product category, quantity sold, price per unit, cost of goods sold (COGS), and Total sale amount.
 
 Create database Retail_sales_Analysis;
@@ -29,8 +30,11 @@ CREATE TABLE Sales_data (
 ### 2. Data Exploration & Cleaning
 
 **Record Count** : Determine the total number of records in the dataset.
+
 **Customer count** : Find out how many unique customers are in the dataset.
+
 **category count** : Identify all unique product categories in the dataset.
+
 **Null Value Check** : Check for any null values in the dataset and delete records with missing data.
 
 select * from Sales_data;
