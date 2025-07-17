@@ -38,7 +38,7 @@ select distinct category from sales_data;
 select * from sales_data where sale_date ="2022-11-05";
 ***
 
-**Q.2 Write a SQL query to retrieve all transactions where the category is 'Clothing' and the quantity sold is more than 3 in the month of Nov-2022
+**Q.2 Write a SQL query to retrieve all transactions where the category is 'Clothing' and the quantity sold is more than 3 in the month of Nov-2022**
 '''sql
 SELECT 
     *
@@ -48,7 +48,7 @@ WHERE
     category = 'clothing'
         AND sale_date BETWEEN '2022-11-01' AND '2022-11-30'
         AND quantity > 3;
-	'''
+'''
         
 -- Q.3 Write a SQL query to calculate the total sales (total_sale) for each category.
 SELECT 
