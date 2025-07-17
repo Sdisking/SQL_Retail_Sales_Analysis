@@ -40,6 +40,7 @@ select distinct category from sales_data;
 
 ### My Analysis and Findings
 **Q.1 Write a SQL query to retrieve all columns for sales made on '2022-11-05**
+
 '''sql
 select * from sales_data where sale_date ="2022-11-05";
 '''
