@@ -1,6 +1,5 @@
-***sql
 Create database Retail_sales_Analysis;
-use Retail_sales_Analysis;***
+use Retail_sales_Analysis;
 CREATE TABLE Sales_data (
     Transaction_id INT PRIMARY KEY,
     Sale_date DATE,
