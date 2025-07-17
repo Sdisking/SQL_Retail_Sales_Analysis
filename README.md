@@ -34,8 +34,9 @@ select distinct category from sales_data;
 
 ### My Analysis and Findings
 **Q.1 Write a SQL query to retrieve all columns for sales made on '2022-11-05**
-
-'''sqlselect * from sales_data where sale_date ="2022-11-05";'''
+'''sql
+select * from sales_data where sale_date ="2022-11-05";
+'''
 
 **Q.2 Write a SQL query to retrieve all transactions where the category is 'Clothing' and the quantity sold is more than 3 in the month of Nov-2022**
 '''sql
