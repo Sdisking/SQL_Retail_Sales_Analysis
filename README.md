@@ -1,5 +1,5 @@
 ### SQL_Retail_Sales_Analysis
-
+***sql
 Create database Retail_sales_Analysis;
 use Retail_sales_Analysis;
 CREATE TABLE Sales_data (
@@ -14,7 +14,7 @@ CREATE TABLE Sales_data (
     Price_per_unit FLOAT,
     cogs FLOAT,
     Total_Sale FLOAT
-);
+); ***
 
 select * from Sales_data;
 select transaction_id from Sales_data;
