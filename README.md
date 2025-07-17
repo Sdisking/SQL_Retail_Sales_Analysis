@@ -1,5 +1,5 @@
 ### SQL_Retail_Sales_Analysis
-***sql
+
 Create database Retail_sales_Analysis;
 use Retail_sales_Analysis;
 CREATE TABLE Sales_data (
@@ -14,7 +14,7 @@ CREATE TABLE Sales_data (
     Price_per_unit FLOAT,
     cogs FLOAT,
     Total_Sale FLOAT
-); ***
+); 
 
 select * from Sales_data;
 select transaction_id from Sales_data;
@@ -34,9 +34,8 @@ select distinct category from sales_data;
 
 ## My Analysis and Findings
 -- Q.1 Write a SQL query to retrieve all columns for sales made on '2022-11-05
-***sql
 select * from sales_data where sale_date ="2022-11-05";
-***
+
 -- Q.2 Write a SQL query to retrieve all transactions where the category is 'Clothing' and the quantity sold is more than 3 in the month of Nov-2022
 SELECT 
     *
