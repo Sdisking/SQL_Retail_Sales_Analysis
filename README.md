@@ -22,15 +22,15 @@ select count(*) from Sales_data;
 select total_sale from sales_data where total_sale is null;
 
  ### Exploratory Questions
--- How many Sales we have?
+**How many Sales we have?**
 
 select count(transaction_id) as Total_sales from sales_data;
 
--- how many customers we have?
+**how many customers we have?**
 
 select count(distinct customer_id) as Total_Customers from sales_data;
 
--- how many categories we have?
+**how many categories we have?**
 
 select distinct category from sales_data;
 
@@ -38,7 +38,9 @@ select distinct category from sales_data;
 ### My Analysis and Findings
 **Q.1 Write a SQL query to retrieve all columns for sales made on '2022-11-05**
 
+'''sql
 select * from sales_data where sale_date ="2022-11-05";
+'''
 
 **Q.2 Write a SQL query to retrieve all transactions where the category is 'Clothing' and the quantity sold is more than 3 in the month of Nov-2022**
 
