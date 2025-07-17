@@ -17,8 +17,11 @@ CREATE TABLE Sales_data (
 ); 
 
 select * from Sales_data;
+
 select transaction_id from Sales_data;
+
 select count(*) from Sales_data;
+
 select total_sale from sales_data where total_sale is null;
 
  ### Exploratory Questions
